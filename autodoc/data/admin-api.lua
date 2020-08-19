@@ -12,7 +12,8 @@ return {
 
   known = {
     general_files = {
-      "kong/api/routes/kong.lua",
+      "kong/api/routes/meta.lua",
+      "kong/api/routes/schemas.lua",
       "kong/api/routes/health.lua",
       "kong/api/routes/config.lua",
       "kong/api/routes/tags.lua",
